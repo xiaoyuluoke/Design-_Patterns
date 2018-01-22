@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+./queue/queue.h
+
+/root/Pattern/Queue/main.c
+stdio.h
+/root/Pattern/Queue/stdio.h
+stdlib.h
+/root/Pattern/Queue/stdlib.h
+queue.h
+/root/Pattern/Queue/queue.h
+
+/root/Pattern/Queue/queue/queue.c
+stdio.h
+/root/Pattern/Queue/queue/stdio.h
+queue.h
+/root/Pattern/Queue/queue/queue.h
+stdlib.h
+-
+
+/root/Pattern/Queue/queue/queue.h
+

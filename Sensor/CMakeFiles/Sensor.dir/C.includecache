@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Pattern/Sensor/Sensor.c
+Sensor.h
+/root/Pattern/Sensor/Sensor.h
+stdio.h
+/root/Pattern/Sensor/stdio.h
+stdlib.h
+/root/Pattern/Sensor/stdlib.h
+
+/root/Pattern/Sensor/Sensor.h
+
+/root/Pattern/Sensor/main.c
+Sensor.h
+/root/Pattern/Sensor/Sensor.h
+stdio.h
+/root/Pattern/Sensor/stdio.h
+stdlib.h
+-
+

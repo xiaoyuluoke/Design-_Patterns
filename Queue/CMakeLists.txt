@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+    project (Queue C)
+    include_directories(./queue/)
+    aux_source_directory(./queue/ srcs)
+    aux_source_directory(. srcs)
+    add_executable(Queue ${srcs})

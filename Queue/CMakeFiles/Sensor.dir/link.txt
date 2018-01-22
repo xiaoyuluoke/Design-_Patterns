@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/Sensor.dir/queue/queue.c.o CMakeFiles/Sensor.dir/main.c.o  -o Sensor -rdynamic 

@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+QUEUE_H_	queue.h	20;"	d
+QUEUE_SIZE	queue.h	24;"	d
+Queue	queue.h	/^struct struct Queue$/;"	s
+Queue	queue.h	/^typedef struct Queue Queue ;$/;"	t	typeref:struct:Queue
+Queue::buffer	queue.h	/^  int buffer[QUEUE_SIZE];  \/\/where the data things are$/;"	m	struct:Queue	access:public
+Queue::getSize	queue.h	/^  int (*getSize)(Queue *const me);$/;"	m	struct:Queue	access:public
+Queue::head	queue.h	/^  int head;$/;"	m	struct:Queue	access:public
+Queue::insert	queue.h	/^  void (*insert)(Queue *const me ,int k);$/;"	m	struct:Queue	access:public
+Queue::isEmpty	queue.h	/^  int (*isEmpty)(Queue *const me);$/;"	m	struct:Queue	access:public
+Queue::isFull	queue.h	/^  int (*isFull)(Queue  *const me);$/;"	m	struct:Queue	access:public
+Queue::remove	queue.h	/^  int (*remove)(Queue  *const me);$/;"	m	struct:Queue	access:public
+Queue::size	queue.h	/^  int size;$/;"	m	struct:Queue	access:public
+Queue::tail	queue.h	/^  int tail;$/;"	m	struct:Queue	access:public
+Queue_Cleanup	queue.c	/^Queue_Cleanup ( Queue *const me )$/;"	f	signature:( Queue *const me )
+Queue_Init	queue.c	/^Queue_Init ( Queue *const me ,int (*isFullfunction)(Queue *const me),$/;"	f	signature:( Queue *const me ,int (*isFullfunction)(Queue *const me), int (*isEmptyfunction)(Queue *const me), int (*getSizefunction)(Queue *const me), void (*insertfunction)(Queue *const me,int k), int (*removefunction)(Queue *const me))
+Queue_isEmpty	queue.c	/^Queue_isEmpty ( Queue *const me )$/;"	f	signature:( Queue *const me )
+Queue_isFull	queue.c	/^Queue_isFull ( Queue *const me )$/;"	f	signature:( Queue *const me )
+buffer	queue.h	/^  int buffer[QUEUE_SIZE];  \/\/where the data things are$/;"	m	struct:Queue	access:public
+getSize	queue.h	/^  int (*getSize)(Queue *const me);$/;"	m	struct:Queue	access:public
+head	queue.h	/^  int head;$/;"	m	struct:Queue	access:public
+insert	queue.h	/^  void (*insert)(Queue *const me ,int k);$/;"	m	struct:Queue	access:public
+isEmpty	queue.h	/^  int (*isEmpty)(Queue *const me);$/;"	m	struct:Queue	access:public
+isFull	queue.h	/^  int (*isFull)(Queue  *const me);$/;"	m	struct:Queue	access:public
+main	queue.c	/^main ( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+remove	queue.h	/^  int (*remove)(Queue  *const me);$/;"	m	struct:Queue	access:public
+size	queue.h	/^  int size;$/;"	m	struct:Queue	access:public
+tail	queue.h	/^  int tail;$/;"	m	struct:Queue	access:public

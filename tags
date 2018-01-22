@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Frequency	Sensor.h	/^  int filter Frequency;$/;"	m	struct:Sensor	access:public
+Senor	Sensor.h	/^typedef struct Senor Senor;$/;"	t	typeref:struct:Senor
+Senor_H	Sensor.h	19;"	d
+Senor_getValue	Sensor.h	/^int Senor_getValue(const Senor * const me);$/;"	p	signature:(const Senor * const me)
+Senor_setUpdateFrequency	Sensor.h	/^void Senor_setUpdateFrequency(Senor_ * const me ,int p_updateFrequency);$/;"	p	signature:(Senor_ * const me ,int p_updateFrequency)
+Sensor	Sensor.h	/^struct Sensor {$/;"	s
+Sensor::Frequency	Sensor.h	/^  int filter Frequency;$/;"	m	struct:Sensor	access:public
+Sensor::updaterFrequency	Sensor.h	/^  int updaterFrequency;$/;"	m	struct:Sensor	access:public
+Sensor::value	Sensor.h	/^  int value ;$/;"	m	struct:Sensor	access:public
+Sensor_Cleanup	Sensor.c	/^Sensor_Cleanup (Sensor * const me)$/;"	f	signature:(Sensor * const me)
+Sensor_Create	Sensor.h	/^Senor * Sensor_Create(void);$/;"	p	signature:(void)
+Sensor_Destroy	Sensor.h	/^void Sensor_Destroy(Sensor * const me ); \/* *\/$/;"	p	signature:(Sensor * const me )
+Sensor_Init	Sensor.c	/^Sensor_Init (Sensor * const me )$/;"	f	signature:(Sensor * const me )
+Sensor_getFilterFrequency	Sensor.c	/^Sensor_getFilterFrequency (const Sensor * const me )$/;"	f	signature:(const Sensor * const me )
+Sensor_getFilterFrequency	Sensor.h	/^int Sensor_getFilterFrequency(const Sensor * const me );$/;"	p	signature:(const Sensor * const me )
+Sensor_getUpdateFrequency	Sensor.h	/^int Sensor_getUpdateFrequency(const Senor * const me);$/;"	p	signature:(const Senor * const me)
+Sensor_setFilterFrequecy	Sensor.h	/^void Sensor_setFilterFrequecy(Sensor * const me ,int p_filterFrequency);$/;"	p	signature:(Sensor * const me ,int p_filterFrequency)
+updaterFrequency	Sensor.h	/^  int updaterFrequency;$/;"	m	struct:Sensor	access:public
+value	Sensor.h	/^  int value ;$/;"	m	struct:Sensor	access:public
